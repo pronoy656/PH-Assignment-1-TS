@@ -35,6 +35,11 @@ const formatCoordinate = (
 
 
 
+const concatenateArrays = <T>(...arrays: T[][]): T[] => {
+  return arrays.flat();
+};
+
+
 
 interface Course {
   title: string;
