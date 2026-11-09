@@ -1,6 +1,6 @@
 Difference between Type Alias vs Interface in TypeScript
 
-Introduction \n
+Introduction
 TypeScript এ কাজ করার সময় type এবং interface দুটোই অনেক গুরুত্বপূর্ণ। বিশেষ করে যখন কোনো Object-এর মধ্যে কী কী Property থাকবে এবং সেগুলোর Data Type কী হবে, তা নির্ধারণ করতে Type and interface ব্যবহার করা হয়। দুটিকে প্রায় একই রকম মনে হলেও দুটো দিয়েই আমরা Object-এর Structure তৈরি করতে পারি। কিন্তু এদের মধ্যে কিছু পার্থক্য রয়েছে। আজ আমরা কিছু উদাহরণের মাধ্যমে বুঝব type এবং interface কী, এদের মধ্যে পার্থক্য কোথায় এবং কোন পরিস্থিতিতে কোনটি ব্যবহার করা ভালো।
 
 What is Type Alias?
